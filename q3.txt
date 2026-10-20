@@ -1,0 +1,5 @@
+1. I think the basic transform component would be the best component to pull out, as this can be reused across other entities
+with positions and scale. This could be like unity's default transform component that all gameobjects have.
+
+2. This means the order we draw the sprites or windows matter. For example, we need to make sure that we render background to
+foreground, either through a layer system or some form of sorting when we load items in to be drawn.
